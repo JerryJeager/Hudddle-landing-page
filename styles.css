@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka+One&family=Inter:wght@100&family=Jost:wght@100&family=Lexend+Deca:wght@100&family=Noto+Sans&family=Poppins:wght@100&family=Prompt:wght@100&family=Roboto:wght@100&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka+One&family=Inter:wght@100&family=Jost:wght@100&family=Lexend+Deca:wght@100&family=Noto+Sans&family=Open+Sans:wght@300&family=Poppins:wght@100&family=Prompt:wght@100&family=Roboto:wght@100&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color:hsl(0, 0%, 100%);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: .8em;
+    height: 75px;
+}
+#logo{
+    display: flex;
+}
+#logo img{
+    height: 33px;
+}
+#header-btn{
+    padding: .3em;
+}
+#header-btn button{
+    height: 35px;
+    color: hsl(321, 100%, 78%);
+    background-color: inherit;
+    border: 2px solid hsl(321, 100%, 78%);
+    padding: .7em .8em;
+    border-radius: 20px;
+    width: 110px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+#header-btn button:hover{
+    background-color: hsl(321, 100%, 78%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+}
+#welcome-section{
+    width: 75%;
+    margin: 6em auto;
+    height: auto;
+}
+#welcome-content strong{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0px 1px, 1px 0px, 1px 0px;
+    color: hsl(192, 100%, 9%);
+}
+#huddle-info{
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .8rem;
+    padding-top: 1.4em;
+    color: hsl(192, 100%, 9%);
+}
+#huddle-info p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+#start-btn{
+    display: flex;
+    justify-content: center;
+    margin: 1.3em auto;
+    padding: .5em;
+}
+#start-btn button{
+    padding: 1.1em;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    background-color:hsl(322, 100%, 66%);
+    border: none;
+    width: 250px;
+    font-size: .8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    transition-duration: 0.4s;
+    height: 50px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+#start-btn button:hover{
+    border: 2px solid hsl(322, 100%, 66%);
+    color:hsl(322, 100%, 66%);
+    background-color:hsl(0, 0%, 100%);
+}
+#screen-mockups-img{
+    width: 80%;
+    margin: 3em auto;
+    padding-top: 2em;
+}
+#screen-mockups-img img{
+    width: 100%;
+    max-width: 100%;
+}
+#stats-section{
+    width: 75%;
+    margin: 0 auto;
+}
+#stats-section-info{
+    max-width: 450px;
+    min-width: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#stats-section h1{
+    font-size: 3.2rem;
+    text-shadow: 0px 1px, 1px 0px, 1px 0px;
+    color: hsl(192, 100%, 9%);
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+#stats-section img{
+    width: 20px;
+    height: 20px;
+}
+#stats-section p{
+    color:hsl(192, 100%, 9%);
+    text-align: center;
+    font-size: .7rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+#grow-together{
+    background: hsl(207, 100%, 98%);
+    height: auto;
+    width: 100%;
+}
+#grow-together-contents{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#grow-together-info{
+    width: 400px;
+    color: hsl(192, 100%, 9%);
+    align-self: center;
+}
+#grow-together-info h1{
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+#grow-together-info p{
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+#grow-together-img{
+    max-width: 100%;
+    width: 400px;
+}
+#grow-together-img img{
+    width: inherit;
+}
+#grow-together-top{
+    height: 160px;
+    background: url(./images/bg-section-top-desktop-1.svg)
+}
+#grow-together-bottom{
+    height: 130px;
+    background: url(./images/bg-section-bottom-desktop-1.svg);
+}
+#flowing-conversations{
+    background: hsl(0, 0%, 100%);
+    height: auto;
+    width: 100%;
+}
+#flowing-conversations-contents{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#flowing-conversations-info{
+    width: 400px;
+    color: hsl(192, 100%, 9%);
+    align-self: center;
+}
+#flowing-conversations-info h1{
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+#flowing-conversations-info p{
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+#flowing-conversations-img{
+    max-width: 100%;
+    width: 400px;
+}
+#flowing-conversations-img img{
+    width: inherit;
+}
+#flowing-conversations-top{
+    height: 60px;
+}
+#flowing-conversations-bottom{
+    height: 40px;
+}
+#your-users{
+    background: hsl(207, 100%, 98%);
+    height: auto;
+    width: 100%;
+}
+#your-users-contents{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#your-users-info{
+    width: 400px;
+    color: hsl(192, 100%, 9%);
+    align-self: center;
+}
+#your-users-info h1{
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+#your-users-info p{
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+#your-users-img{
+    max-width: 100%;
+    width: 400px;
+}
+#your-users-img img{
+    width: inherit;
+}
+#your-users-top{
+    height: 150px;
+    background: url(./images/bg-section-top-desktop-2.svg)
+}
+#your-users-bottom{
+    height: 130px;
+    background: url(./images/bg-section-bottom-desktop-2.svg);
+}
+#build-community{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#build-community h1{
+    text-align: center;
+    align-self: center;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+#build-community-btn{
+    text-align: center;
+    align-self: center;
+}
+#build-community button{
+    height: 45px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(322, 100%, 66%);
+    padding: .7em .8em;
+    border-radius: 20px;
+    width: 230px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+#build-community button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
+}
+footer{
+    background-color:hsl(192, 100%, 9%);
+    height: auto;
+    padding-top: 3.2em;
+}
+#footer-top{
+    height: 150px;
+    background-image: url(./images/bg-footer-top-desktop.svg);
+}
+#footer-contents{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    color: white;
+}
+#contact{
+    width: 25%;
+    color:hsl(207, 100%, 98%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.footer-logo{
+    /* changes the image to white with "filter"*/
+    filter: brightness(0) invert(1);
+    height: 30px;
+}
+#contact span{
+    margin-left: .5em;
+}
+#socials{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.6em;
+}
+.fa-facebook{
+    font-size: 20px;
+}
+.fa-instagram{
+    font-size: 20px;
+}
+.fa-twitter{
+    font-size: 20px;
+}
+#newsletter{
+    width: 40%;
+    font-family: 'Open Sans', sans-serif;
+}
+#newsletter h1{
+    color:hsl(207, 100%, 98%);
+    font-family: 'Poppins', sans-serif;
+}
+
+#submit-email{
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: .6em;
+}
+footer button{
+    width: 200px;
+    height: 30px;
+    padding: .6em;
+    border: none;
+    background-color:hsl(322, 100%, 66%);
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: .6s;
+    margin-left: .5em;
+}
+footer button:hover{
+    background-color:hsl(322, 100%, 55%);
+}
+#free-trial-confirmation1{
+    color: hsl(0, 100%, 63%);
+    text-align: center;
+}
+#free-trial-confirmation2{
+    color: hsl(0, 100%, 63%);
+    text-align: center;
+}
