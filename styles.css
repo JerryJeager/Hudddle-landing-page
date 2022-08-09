@@ -332,6 +332,7 @@ footer{
 #newsletter h1{
     color:hsl(207, 100%, 98%);
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
 }
 
 #submit-email{
@@ -369,7 +370,7 @@ footer button:hover{
         padding: .6em .4em .2em .4em;
         height: 25px;
         margin-top: .6em;
-        width: 100%;
+        width: 90%;
     }
     #logo img{
         height: 18px;
@@ -398,9 +399,9 @@ footer button:hover{
         font-size: .9rem;
     }
     #huddle-info{
-        font-size: .5rem;
+        font-size: .7rem;
         padding-top: 1.2em;
-        width: 170px;
+        width: 190px;
     }
     #start-btn{
         display: flex;
@@ -415,12 +416,12 @@ footer button:hover{
         height: 40px;
     }
     #stats-section-info{
-        height: 180px;
+        height: 190px;
         flex-direction: column;
         align-items: center;
     }
     #stats-section h1{
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
     #stats-section img{
         width: 15px;
@@ -440,15 +441,15 @@ footer button:hover{
         justify-content: space-around;
     }
     #grow-together-info{
-        width: 200px;
+        width: 230px;
         align-self: center;
     }
     #grow-together-info h1{
-        font-size: .9rem;
+        font-size: 1.2rem;
         text-align: center;
     }
     #grow-together-info p{
-        font-size: .65rem;
+        font-size: .8rem;
         text-align: center;
     }
     #grow-together-img{
@@ -475,15 +476,15 @@ footer button:hover{
         justify-content: space-around;
     }
     #flowing-conversations-info{
-        width: 200px;
+        width: 230px;
         align-self: center;
     }
     #flowing-conversations-info h1{
-        font-size: .9rem;
+        font-size: 1.2rem;
         text-align: center;
     }
     #flowing-conversations-info p{
-        font-size: .65rem;
+        font-size: .8rem;
         text-align: center;
     }
     #flowing-conversations-img{
@@ -509,16 +510,16 @@ footer button:hover{
         justify-content: space-around;
     }
     #your-users-info{
-        width: 200px;
+        width: 230px;
         align-self: center;
         
     }
     #your-users-info h1{
-        font-size: .9rem;
+        font-size: 1.2rem;
         text-align: center;
     }
     #your-users-info p{
-        font-size: .65rem;
+        font-size: .8rem;
         text-align: center;
     }
     #your-users-img{
@@ -562,7 +563,7 @@ footer button:hover{
     padding-top: 3.2em;
 }
 #footer-top{
-    height: 50px;
+    height: 40px;
     background-image: url(./images/bg-footer-top-mobile.svg);
 }
 #footer-contents{
@@ -580,16 +581,11 @@ footer button:hover{
     font-family: 'Open Sans', sans-serif;
     font-size: .8rem;;
 }
+.footer-logo{
+    width: 140px;
+    height: 20px;
+}
 
-.fa-facebook{
-    font-size: 15px;
-}
-.fa-instagram{
-    font-size: 15px;
-}
-.fa-twitter{
-    font-size: 15px;
-}
 #newsletter{
     width: 80%;
     margin: 0 auto;
@@ -601,10 +597,21 @@ footer button:hover{
 }
 #submit-email{
     height: 30px;
-    width: 200px;
+    width: 100%;
     border: none;
     border-radius: 5px;
     padding: .6em;
+}
+
+#subscribe{
+    width: 50%;
+    align-self: flex-end;
+}
+form{
+    height: 70px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 footer button{
     width: 200px;
