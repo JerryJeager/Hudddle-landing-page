@@ -365,7 +365,7 @@ footer button:hover{
     color: hsl(0, 100%, 63%);
     text-align: center;
 }
-@media (orientation: portrait){
+@media screen and (max-width: 450px){
     header{
         padding: .6em .4em .2em .4em;
         height: 25px;
