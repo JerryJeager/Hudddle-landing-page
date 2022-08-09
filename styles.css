@@ -293,7 +293,7 @@ footer{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    height: 300px;
+    height: auto;
     color: white;
 }
 #contact{
@@ -363,4 +363,260 @@ footer button:hover{
 #free-trial-confirmation2{
     color: hsl(0, 100%, 63%);
     text-align: center;
+}
+@media screen and (max-width: 375px){
+    header{
+        padding: .6em .4em .2em .4em;
+        height: 25px;
+        margin-top: .6em;
+        width: 100%;
+    }
+    #logo img{
+        height: 18px;
+        width: 100px;
+    }
+    #logo{
+        width: 110px;
+    }
+    #header-btn{
+        width: 50px;
+        
+    }    
+    #header-btn button{
+        height: 23px;
+        padding: .2em .3em;
+        border-radius: 20px;
+        width: 60px;
+        font-size: .6rem;
+    }
+    #welcome-section{
+        width: 75%;
+        margin: 6em auto;
+        height: auto;
+    }
+    #welcome-content strong{
+        font-size: .9rem;
+    }
+    #huddle-info{
+        font-size: .5rem;
+        padding-top: 1.2em;
+        width: 170px;
+    }
+    #start-btn{
+        display: flex;
+        justify-content: center;
+        margin: 1.3em auto;
+        padding: .5em;
+    }
+    #start-btn button{
+        padding: .7em;
+        width: 150px;
+        font-size: .6rem;
+        height: 40px;
+    }
+    #stats-section-info{
+        height: 180px;
+        flex-direction: column;
+        align-items: center;
+    }
+    #stats-section h1{
+        font-size: 1.7rem;
+    }
+    #stats-section img{
+        width: 15px;
+        height: 15px;
+    }
+    #stats-section p{
+        font-size: .5rem;
+    }
+    #grow-together{
+    background: hsl(207, 100%, 98%);
+    height: auto;
+    width: 100%;
+    }
+    #grow-together-contents{
+        flex-direction: column-reverse;
+        height: 380px;
+        justify-content: space-around;
+    }
+    #grow-together-info{
+        width: 200px;
+        align-self: center;
+    }
+    #grow-together-info h1{
+        font-size: .9rem;
+        text-align: center;
+    }
+    #grow-together-info p{
+        font-size: .65rem;
+        text-align: center;
+    }
+    #grow-together-img{
+        padding-top: 1.3em;
+        max-width: 100%;
+        width: 180px;
+        align-self: center;
+    }
+    #grow-together-top{
+        height: 110px;
+        background: url(./images/bg-section-top-mobile-1.svg)
+    }
+    #grow-together-bottom{
+        height: 40px;
+        background: url(./images/bg-section-bottom-mobile-1.svg);
+    }
+    #flowing-conversations{
+    height: auto;
+    width: 100%;
+    }
+    #flowing-conversations-contents{
+        flex-direction: column;
+        height: 380px;
+        justify-content: space-around;
+    }
+    #flowing-conversations-info{
+        width: 200px;
+        align-self: center;
+    }
+    #flowing-conversations-info h1{
+        font-size: .9rem;
+        text-align: center;
+    }
+    #flowing-conversations-info p{
+        font-size: .65rem;
+        text-align: center;
+    }
+    #flowing-conversations-img{
+        padding-top: 1.3em;
+        max-width: 100%;
+        width: 180px;
+        align-self: center;
+    }
+    #flowing-conversations-top{
+        height: 40px;
+    }
+    #flowing-conversations-bottom{
+        height: 40px;
+    }
+    #your-users{
+    background: hsl(207, 100%, 98%);
+    height: auto;
+    width: 100%;
+    }
+    #your-users-contents{
+        flex-direction: column-reverse;
+        height: 380px;
+        justify-content: space-around;
+    }
+    #your-users-info{
+        width: 200px;
+        align-self: center;
+        
+    }
+    #your-users-info h1{
+        font-size: .9rem;
+        text-align: center;
+    }
+    #your-users-info p{
+        font-size: .65rem;
+        text-align: center;
+    }
+    #your-users-img{
+        padding-top: 1.3em;
+        max-width: 100%;
+        width: 180px;
+        align-self: center;
+    }
+    #your-users-top{
+        height: 90px;
+        background: url(./images/bg-section-top-mobile-2.svg);
+    }
+    #your-users-bottom{
+        height: 40px;
+        background: url(./images/bg-section-bottom-mobile-2.svg);
+    }
+    #build-community{
+        height: 250px;
+        display: flex;
+        width: 190px;
+        margin: 0 auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #build-community h1{
+        font-size: 1.2rem;
+    }
+    #build-community-btn{
+        text-align: center;
+        align-self: center;
+    }
+    #build-community-btn button{
+        padding: .7em;
+        width: 150px;
+        font-size: .65rem;
+        height: 40px;
+    }
+    footer{
+    background-color:hsl(192, 100%, 9%);
+    height: auto;
+    padding-top: 3.2em;
+}
+#footer-top{
+    height: 50px;
+    background-image: url(./images/bg-footer-top-mobile.svg);
+}
+#footer-contents{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    color: white;
+}
+#contact{
+    width: 80%;
+    margin: 2em auto;
+    color:hsl(207, 100%, 98%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;;
+}
+
+.fa-facebook{
+    font-size: 15px;
+}
+.fa-instagram{
+    font-size: 15px;
+}
+.fa-twitter{
+    font-size: 15px;
+}
+#newsletter{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+}
+#newsletter h1{
+    font-size: .9rem;
+}
+#submit-email{
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: .6em;
+}
+footer button{
+    width: 200px;
+    height: 30px;
+    padding: .6em;
+    border: none;
+    background-color:hsl(322, 100%, 66%);
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: .6s;
+    margin-left: .5em;
+}
+
 }
